@@ -1,4 +1,4 @@
-# Mechanistic Study of S<sub>N</sub>2 Reaction
+# Computational Mechanistic Study of S<sub>N</sub>2 Reaction
 
 This project presents a computational investigation of the S<sub>N</sub>2 reaction mechanism between methyl chloride (CH₃Cl) and fluoride anion (F⁻), leading to the substitution product methyl fluoride (CH₃F). The study includes transition state (TS) search, intrinsic reaction coordinate (IRC) calculations, energy profile generation, and geometry analysis using Psi4 and Python.
 
