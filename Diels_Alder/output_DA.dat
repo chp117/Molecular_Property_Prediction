@@ -1,0 +1,357 @@
+
+Scratch directory: /tmp/
+gradient() will perform analytic gradient computation.
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on LAPTOP-0TVB8UPA
+*** at Tue Apr 29 10:11:13 2025
+
+   => Loading Basis Set <=
+
+    Name: 6-31G(D)
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-5, 12-14  entry C          line   111 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/6-31g_d_.gbs 
+    atoms 6-11, 16-18 entry H          line    44 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/6-31g_d_.gbs 
+    atoms 15          entry N          line   128 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/6-31g_d_.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        2 Threads,   1907 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         C            0.986761564952    -0.903280396088    -1.245523301023    12.000000000000
+         C            0.986761564952    -0.903280396088     0.256476698977    12.000000000000
+         C            0.986761564952     0.560810917587    -1.580844975272    12.000000000000
+         C            0.986761564952     0.371170899868     0.707783572661    12.000000000000
+         C            0.986761564952     1.285248744398    -0.439313619993    12.000000000000
+         H            1.875902478479    -1.416626141861    -1.654093467811     1.007825032230
+         H            0.097620651424    -1.416626141861    -1.654093467811     1.007825032230
+         H            0.986761564952    -1.770323269295     0.900399563940     1.007825032230
+         H            0.986761564952     0.994914516375    -2.569760576078     1.007825032230
+         H            0.986761564952     0.654335212800     1.750001386691     1.007825032230
+         H            0.986761564952     2.364378691122    -0.395971284058     1.007825032230
+         C           -1.229055879326    -0.659791955190    -0.049082514245    12.000000000000
+         C           -1.229055879326     0.169060525589    -1.089228448768    12.000000000000
+         C           -1.229055879326    -0.136125099872     1.283732936086    12.000000000000
+         N           -1.229055879326     0.279297768592     2.341050220707    14.003074004430
+         H           -1.229055879326     1.237057944233    -0.928662220160     1.007825032230
+         H           -1.229055879326    -1.727789373834    -0.209648742853     1.007825032230
+         H           -1.229055879326    -0.225883750768    -2.094424458795     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      0.10166  B =      0.05466  C =      0.04971 [cm^-1]
+  Rotational constants: A =   3047.69042  B =   1638.68387  C =   1490.39503 [MHz]
+  Nuclear repulsion =  427.478857657255503
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 64
+  Nalpha       = 32
+  Nbeta        = 32
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-31G(D)
+    Blend: 6-31G(D)
+    Number of shells: 72
+    Number of basis functions: 153
+    Number of Cartesian functions: 153
+    Spherical Harmonics?: false
+    Max angular momentum: 2
+
+   => Loading Basis Set <=
+
+    Name: (6-31G(D) AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1-5, 12-14  entry C          line   121 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/cc-pvdz-jkfit.gbs 
+    atoms 6-11, 16-18 entry H          line    51 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/cc-pvdz-jkfit.gbs 
+    atoms 15          entry N          line   171 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/cc-pvdz-jkfit.gbs 
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.177 GiB; user supplied 1.397 GiB. 
+  Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               2
+    Memory [MiB]:              1430
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       1.2132
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (6-31G(D) AUX)
+    Blend: CC-PVDZ-JKFIT
+    Number of shells: 297
+    Number of basis functions: 954
+    Number of Cartesian functions: 954
+    Spherical Harmonics?: false
+    Max angular momentum: 3
+
+
+Scratch directory: /tmp/
+gradient() will perform analytic gradient computation.
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on LAPTOP-0TVB8UPA
+*** at Tue Apr 29 10:12:58 2025
+
+   => Loading Basis Set <=
+
+    Name: 6-31G(D)
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-5, 12-14  entry C          line   111 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/6-31g_d_.gbs 
+    atoms 6-11, 16-18 entry H          line    44 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/6-31g_d_.gbs 
+    atoms 15          entry N          line   128 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/6-31g_d_.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        2 Threads,   1907 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         C            0.986761564952    -0.903280396088    -1.245523301023    12.000000000000
+         C            0.986761564952    -0.903280396088     0.256476698977    12.000000000000
+         C            0.986761564952     0.560810917587    -1.580844975272    12.000000000000
+         C            0.986761564952     0.371170899868     0.707783572661    12.000000000000
+         C            0.986761564952     1.285248744398    -0.439313619993    12.000000000000
+         H            1.875902478479    -1.416626141861    -1.654093467811     1.007825032230
+         H            0.097620651424    -1.416626141861    -1.654093467811     1.007825032230
+         H            0.986761564952    -1.770323269295     0.900399563940     1.007825032230
+         H            0.986761564952     0.994914516375    -2.569760576078     1.007825032230
+         H            0.986761564952     0.654335212800     1.750001386691     1.007825032230
+         H            0.986761564952     2.364378691122    -0.395971284058     1.007825032230
+         C           -1.229055879326    -0.659791955190    -0.049082514245    12.000000000000
+         C           -1.229055879326     0.169060525589    -1.089228448768    12.000000000000
+         C           -1.229055879326    -0.136125099872     1.283732936086    12.000000000000
+         N           -1.229055879326     0.279297768592     2.341050220707    14.003074004430
+         H           -1.229055879326     1.237057944233    -0.928662220160     1.007825032230
+         H           -1.229055879326    -1.727789373834    -0.209648742853     1.007825032230
+         H           -1.229055879326    -0.225883750768    -2.094424458795     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      0.10166  B =      0.05466  C =      0.04971 [cm^-1]
+  Rotational constants: A =   3047.69042  B =   1638.68387  C =   1490.39503 [MHz]
+  Nuclear repulsion =  427.478857657255503
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 64
+  Nalpha       = 32
+  Nbeta        = 32
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-31G(D)
+    Blend: 6-31G(D)
+    Number of shells: 72
+    Number of basis functions: 153
+    Number of Cartesian functions: 153
+    Spherical Harmonics?: false
+    Max angular momentum: 2
+
+   => Loading Basis Set <=
+
+    Name: (6-31G(D) AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1-5, 12-14  entry C          line   121 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/cc-pvdz-jkfit.gbs 
+    atoms 6-11, 16-18 entry H          line    51 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/cc-pvdz-jkfit.gbs 
+    atoms 15          entry N          line   171 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/cc-pvdz-jkfit.gbs 
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.177 GiB; user supplied 1.397 GiB. 
+  Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               2
+    Memory [MiB]:              1430
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       1.2132
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (6-31G(D) AUX)
+    Blend: CC-PVDZ-JKFIT
+    Number of shells: 297
+    Number of basis functions: 954
+    Number of Cartesian functions: 954
+    Spherical Harmonics?: false
+    Max angular momentum: 3
+
+
+Scratch directory: /tmp/
+gradient() will perform analytic gradient computation.
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on LAPTOP-0TVB8UPA
+*** at Tue Apr 29 10:18:05 2025
+
+   => Loading Basis Set <=
+
+    Name: 6-31G(D)
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-5, 12-14  entry C          line   111 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/6-31g_d_.gbs 
+    atoms 6-11, 16-18 entry H          line    44 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/6-31g_d_.gbs 
+    atoms 15          entry N          line   128 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/6-31g_d_.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        2 Threads,   1907 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         C            0.986761564952    -0.311099636895    -0.773637121367    12.000000000000
+         C            0.986761564952    -0.311099636895     0.728362878633    12.000000000000
+         C            0.986761564952     1.152991676780    -1.108958795615    12.000000000000
+         C            0.986761564952     0.963351659062     1.179669752317    12.000000000000
+         C            0.986761564952     1.877429503592     0.032572559663    12.000000000000
+         H            1.875902478479    -0.824445382668    -1.182207288155     1.007825032230
+         H            0.097620651424    -0.824445382668    -1.182207288155     1.007825032230
+         H            0.986761564952    -1.178142510102     1.372285743596     1.007825032230
+         H            0.986761564952     1.587095275569    -2.097874396422     1.007825032230
+         H            0.986761564952     1.246515971994     2.221887566347     1.007825032230
+         H            0.986761564952     2.956559450315     0.075914895598     1.007825032230
+         C           -1.229055879326    -0.067611195997     0.422803665411    12.000000000000
+         C           -1.229055879326     0.761241284782    -0.617342269112    12.000000000000
+         C           -1.229055879326    -1.483696662199     0.209904740071    12.000000000000
+         N           -1.229055879326    -2.607071724773     0.041012855164    14.003074004430
+         H           -1.229055879326     0.366297008425    -1.622538279138     1.007825032230
+         H           -1.229055879326     0.327333080360     1.427999675438     1.007825032230
+         H           -1.229055879326     1.829238703427    -0.456776040503     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      0.11198  B =      0.04772  C =      0.04554 [cm^-1]
+  Rotational constants: A =   3357.15306  B =   1430.73490  C =   1365.38728 [MHz]
+  Nuclear repulsion =  422.755926444490569
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 64
+  Nalpha       = 32
+  Nbeta        = 32
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-31G(D)
+    Blend: 6-31G(D)
+    Number of shells: 72
+    Number of basis functions: 153
+    Number of Cartesian functions: 153
+    Spherical Harmonics?: false
+    Max angular momentum: 2
+
+   => Loading Basis Set <=
+
+    Name: (6-31G(D) AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1-5, 12-14  entry C          line   121 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/cc-pvdz-jkfit.gbs 
+    atoms 6-11, 16-18 entry H          line    51 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/cc-pvdz-jkfit.gbs 
+    atoms 15          entry N          line   171 file /home/bryan/miniconda3/envs/p4env/share/psi4/basis/cc-pvdz-jkfit.gbs 
+
