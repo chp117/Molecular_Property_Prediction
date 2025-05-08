@@ -13,7 +13,7 @@ This is a classic bimolecular nucleophilic substitution (S<sub>N</sub>2) reactio
 - **Psi4** – quantum chemistry package for electronic structure calculations
 - **NumPy / Pandas / Matplotlib / py3Dmol** – for analysis and visualization
 
-## Visualization Note
+## 🖼 Visualization Note
 
 **Important:** The interactive 3D molecular visualizations powered by `py3Dmol` **do not render on GitHub** due to JavaScript restrictions.
 
